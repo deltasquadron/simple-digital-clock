@@ -1,0 +1,29 @@
+body {
+  background-image: url(/images/meadow.jpg);
+  background-size: cover;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 100vh;
+}
+
+#current-time {
+  font-family: "Sora", sans-serif;
+  font-size: 15vw;
+  text-align: center;
+}
+
+.dark-mode {
+  background-image: url(/images/leaf.jpg);
+}
+
+.dark-clock {
+  color: #fff;
+}
+
+.btn-toggle {
+  display: block;
+  margin-right: 0;
+  margin-left: auto;
+}
